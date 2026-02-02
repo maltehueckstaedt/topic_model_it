@@ -29,7 +29,7 @@ conda activate torch5080
 ### 2. Nightly-Build von PyTorch mit Blackwell-Support installieren
 
 ```bash
-pip install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/cu128
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
 ```
 
 ### 3. BERTopic + Zusatzpakete installieren
